@@ -1,19 +1,19 @@
-using namespace vex;
+extern vex::brain Brain;
+extern vex::competition Competition;
 
-extern brain Brain;
-extern competition Competition;
+extern vex::motor TopL;
+extern vex::motor BottomL;
+extern vex::motor TopR;
+extern vex::motor BottomR;
+extern vex::motor Claw;
+extern vex::motor Flipper;
+extern vex::motor LiftL;
+extern vex::motor LiftR;
 
-extern motor TopL;
-extern motor BottomL;
-extern motor TopR;
-extern motor BottomR;
-extern motor Claw;
-extern motor Flipper;
-extern motor LiftL;
-extern motor LiftR;
+extern vex::motor_group DrivetrainL;
+extern vex::motor_group DrivetrainR;
+extern vex::motor_group Lift;
 
-extern motor_group DrivetrainL;
-extern motor_group DrivetrainR;
-extern motor_group Lift;
+extern vex::rotation ArmEncoder;
 
-extern controller Controller1;
+extern vex::controller Controller1;
